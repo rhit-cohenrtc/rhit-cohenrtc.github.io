@@ -24,6 +24,12 @@ page-header nav a:focus {
   margin-bottom: 10px;
 }
 
+.education p {
+  display: flex;
+  justify-content: space-between;
+  margin: 4px 0;
+}
+
 .left {
     float: left;
 }
