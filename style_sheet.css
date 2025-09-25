@@ -2,7 +2,7 @@ nav a:link {
     color: #0000EE;
 }
 
-a:visited {
+nav a:visited {
     display: none;
 }
 
