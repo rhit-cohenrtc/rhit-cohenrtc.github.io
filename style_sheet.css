@@ -1,4 +1,4 @@
-a:link {
+nav a:link {
     color: #0000EE;
 }
 
@@ -6,7 +6,7 @@ a:visited {
     display: none;
 }
 
-a:hover {
+page-header nav a:hover {
     color: red;
 }
 
