@@ -21,4 +21,20 @@ class PageHeader extends HTMLElement {
   }
 }
 
+class PageFooter extends HTMLElement {
+  constructor() {
+    super();
+  }
+
+  connectedCallback() {
+    this.innerHTML = `
+        <nav><ul>
+        <li><a href="mailto:cohenrtc@rose-hulman.edu">Email</a></li>
+        <li><a href="https://www.linkedin.com/mynetwork/invite-connect/connections/">LinkedIn</a></li>
+        </ul></nav>
+      `;
+  }
+}
+
 customElements.define('page-header', PageHeader);
+customElements.define('page-footer', PageFooter);
