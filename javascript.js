@@ -10,9 +10,11 @@ class PageHeader extends HTMLElement {
             Tristan Cohen-Rider
         </header>
         <nav>
-            <a href="index.html">Home Page</a>
-            <a href="resume.html">Expirences</a>
-            <a href="portfolio.html">Projects</a>
+            <ul>
+            <li><a href="index.html">Home Page</a></li>
+            <li><a href="resume.html">Expirences</a></li>
+            <li><a href="portfolio.html">Projects</a></li>
+            </ul>
         </nav>
       `;
   }

@@ -3,7 +3,7 @@ page-header nav a:link {
 }
 
 page-header nav a:visited {
-    display: none;
+    display: purple;
 }
 
 page-header nav a:hover {
@@ -11,7 +11,11 @@ page-header nav a:hover {
 }
 
 page-header nav a:active {
-    color: yellow;
+    color: orange;
+}
+
+page-header nav a:focus {
+    color: #2B1ACC
 }
 
 .education {
