@@ -1,8 +1,8 @@
-nav a:link {
+page-header nav a:link {
     color: #0000EE;
 }
 
-nav a:visited {
+page-header nav a:visited {
     display: none;
 }
 
@@ -10,7 +10,7 @@ page-header nav a:hover {
     color: red;
 }
 
-a:active {
+page-header nav a:active {
     color: yellow;
 }
 
