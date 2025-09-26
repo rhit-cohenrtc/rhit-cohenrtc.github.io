@@ -1,21 +1,47 @@
-page-header nav a:link {
-    color: #0000EE;
-}
+page-header {
+    div {
+        border: 3px solid darkblue;
+        margin-bottom: 10px;
+        background-color: #ABCDEF;
+        padding: 20px 10px;
 
-page-header nav a:visited {
-    display: purple;
-}
+        header {
+            font-size: 300%;
+            margin: 10px;
+            vertical-align: middle;
+        };
 
-page-header nav a:hover {
-    color: red;
-}
+        nav {
+            margin: 10px;
+            a {
+                background-color: #bba5f6;
+                border: 3px solid darkblue;
+                padding: 3px;
+                margin: 0px 10px;
+            }
 
-page-header nav a:active {
-    color: rgb(218, 106, 8);
-}
+            a:link {
+                color: #0000EE;
+            };
 
-page-header nav a:focus {
-    color: #2B1ACC
+            a:visited {
+                color: purple;
+            };
+
+            a:hover{
+                color: red;
+            };
+
+            a:active {
+                color: rgb(218, 106, 8);
+            }
+
+            a:focus {
+                color: #2B1ACC;
+            } 
+        };
+    }
+    
 }
 
 .education {
@@ -28,4 +54,8 @@ page-header nav a:focus {
   display: flex;
   justify-content: space-between;
   margin: 4px 0;
+}
+
+html {
+    background-color: lightgoldenrodyellow;
 }

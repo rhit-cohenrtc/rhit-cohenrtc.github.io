@@ -7,16 +7,16 @@ class PageHeader extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
+      <div>
         <header>
             Tristan Cohen-Rider
         </header>
         <nav>
-            <ul>
-            <li><a href="index.html">Home Page</a></li>
-            <li><a href="resume.html">Experience</a></li>
-            <li><a href="portfolio.html">Projects</a></li>
-            </ul>
+            <a href="index.html">Home Page</a> 
+            <a href="resume.html">Experience</a> 
+            <a href="portfolio.html">Projects</a>
         </nav>
+      </div>
       `;
   }
 }
