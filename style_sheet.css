@@ -1,61 +1,153 @@
-page-header {
+body{
+    margin: 0;
+    background-color: #FFBCB5;
+}
+
+/* Shout out and citation to carson for teaching me about how to grid */
+header {
+    background-color: #63372C;
+    font-size: 150%;
+    padding-left: 30px; 
+    margin-bottom: 10px;
+    display: block;
+    color: #F2E5D7;
+    width: 100%;
+    position: fixed;
+    
+
     div {
-        border: 3px solid darkblue;
-        margin-bottom: 10px;
-        background-color: #ABCDEF;
-        padding: 20px 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
 
-        header {
-            font-size: 300%;
-            margin: 10px;
-            vertical-align: middle;
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+
+        a {
+            border: 3px solid #C97D60;
+            padding: 3px;
+            margin: 0px 10px;
+            text-decoration: none;
         };
 
-        nav {
-            margin: 10px;
-            a {
-                background-color: #bba5f6;
-                border: 3px solid darkblue;
-                padding: 3px;
-                margin: 0px 10px;
-            }
-
-            a:link {
-                color: #0000EE;
-            };
-
-            a:visited {
-                color: purple;
-            };
-
-            a:hover{
-                color: red;
-            };
-
-            a:active {
-                color: rgb(218, 106, 8);
-            }
-
-            a:focus {
-                color: #2B1ACC;
-            } 
+        a:link {
+            color: #F2E5D7;
         };
+
+        a:visited {
+            color: #F2E5D7;
+        }
+
+        a:hover{
+            color: #262322;
+            background-color: #C97D60;
+        };
+
+        a:active {
+            color:#F2E5D7;
+        };
+    };
+    
+}
+
+/* https://www.w3schools.com/howto/howto_css_fixed_footer.asp Getting a footer to bottom */
+footer{
+    background-color: #63372C;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color:#F2E5D7;
+
+    a {
+        text-decoration: none;
+        color:#F2E5D7;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     
 }
 
 .education {
-  border: 5px solid black;
+  border: 5px solid #262322;
   padding: 8px;
   margin-bottom: 10px;
+  margin-left: 10px;
 }
 
 .education p.split {
   display: flex;
+  margin-left: 10px;
   justify-content: space-between;
   margin: 4px 0;
 }
 
-html {
-    background-color: lightgoldenrodyellow;
+#about-me{
+    margin-left: 10px;
+    color: #262322;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    display: flex;
+
+
+    img {
+        margin-left: 20px;
+        margin-top: 100px;
+        width: 25%;
+    }
+
+    div{
+        margin-left: 20px;
+    }
+
+    h1 {
+        font-size: 200%;
+        margin: 0 0 10px 0;
+    }
+
+    p {
+        font-size: 150%;
+        margin-left: 75px
+    }
+}
+
+#langDiv{
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+h1 {
+    margin: 0px;
+    padding-top: 100px;
+    margin-left: 10px;
+}
+
+h2 {
+    margin-left: 10px;
+}
+
+.project {
+    border: 5px solid #262322;
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.work_expirence {
+  border: 5px solid #262322;
+  padding: 8px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.work_expirence p.split {
+  display: flex;
+  margin-left: 10px;
+  justify-content: space-between;
+  margin: 4px 0;
 }
